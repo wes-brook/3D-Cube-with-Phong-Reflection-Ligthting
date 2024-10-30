@@ -1,7 +1,7 @@
 # 3D-Cube-with-Phong-Reflection-Lighting
 
 # Demo
-![3D Cube Demo](Assignment_5/other/sample.gif)
+![3D Cube Demo](other/sample.gif)
 
 ## Description
 I made a controllable 3D Cube using WebGL 2.0 and the Phong Reflection Lighting Model. This project showcases basic 3D graphics concepts, including vertex and fragment shaders, camera controls, and lighting techniques. I think it’s pretty cool.
