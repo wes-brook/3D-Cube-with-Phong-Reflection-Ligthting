@@ -172,17 +172,23 @@ document.addEventListener("keyup", (event) => {
 });
 
 function updateMovement() {
+    let isMoving = false; // Flag to check if the cube is being controlled
+
     if (keysPressed["ArrowLeft"]) {
         cubeRotationY -= 0.1;
+        isMoving = true;
     }
     if (keysPressed["ArrowRight"]) {
         cubeRotationY += 0.1;
+        isMoving = true;
     }
     if (keysPressed["ArrowUp"]) {
         cubeRotationX -= 0.1;
+        isMoving = true;
     }
     if (keysPressed["ArrowDown"]) {
         cubeRotationX += 0.1;
+        isMoving = true;
     }
     if (keysPressed["w"]) {
         light.position[1] += 0.1; // Move light up on the Y-axis
@@ -209,9 +215,16 @@ function updateMovement() {
         useDirectionalLight = false;
     }
 
+    // If no keys are pressed, slowly rotate the cube
+    if (!isMoving) {
+        cubeRotationY += 0.006; // Slow rotation on Y-axis
+        cubeRotationX += 0.006; // Slow rotation on X-axis
+    }
+
     // Call updateMovement recursively to keep the animation smooth
     requestAnimationFrame(updateMovement);
 }
+
 
 // Start the movement update loop
 updateMovement();
