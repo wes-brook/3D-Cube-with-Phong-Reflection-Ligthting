@@ -4,7 +4,7 @@
 ![3D Cube Demo](other/sample.gif)
 
 ## Description
-I made a controllable 3D Cube using WebGL 2.0 and the Phong Reflection Lighting Model. This project showcases basic 3D graphics concepts, including vertex and fragment shaders, camera controls, and lighting techniques. I think it’s pretty cool.
+I made a web page for a controllable 3D Cube using WebGL 2.0 and the Phong Reflection Lighting Model. This project showcases basic 3D graphics concepts, including vertex and fragment shaders, camera controls, and lighting techniques. I think it’s pretty cool.
 
 ## Features
 - **Interactive 3D Cube**: Rotate the cube using keyboard controls.
