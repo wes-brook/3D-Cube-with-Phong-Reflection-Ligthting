@@ -67,6 +67,20 @@ Purpose:    Define HTML code for a controllable 3D cube with Phong Reflection mo
         .notice-box ul li strong {
             color: #333;
         }
+        .my-link {
+            text-decoration: none;
+            color: #007AFF; 
+            font-weight: bold;
+            font-size: 16px;
+            border: 1px solid #007AFF; 
+            border-radius: 8px; 
+            padding: 5px 15px; 
+            transition: background-color 0.3s, color 0.3s; 
+        }
+        .my-link:hover {
+            background-color: #007AFF; 
+            color: white; 
+        }
         canvas {
             background-color: #222;
             border-radius: 8px;
@@ -91,6 +105,15 @@ Purpose:    Define HTML code for a controllable 3D cube with Phong Reflection mo
                     <li>Press <strong>2</strong> to toggle positional light <strong>OFF</strong></li>
                     <li>Press <strong>3</strong> to toggle directional light <strong>ON</strong></li>
                     <li>Press <strong>4</strong> to toggle directional light <strong>OFF</strong></li>
+                    <li>
+                        <a href="https://github.com/wes-brook/3D-Cube-with-Phong-Reflection-Ligthting" 
+                           target="_blank" 
+                           rel="noopener noreferrer" 
+                           aria-label="GitHub repository for 3D Cube with Phong Reflection Lighting" 
+                           class="my-link">
+                            View GitHub Repository
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>

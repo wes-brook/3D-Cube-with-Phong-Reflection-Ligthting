@@ -225,9 +225,9 @@ function updateMovement() {
     requestAnimationFrame(updateMovement);
 }
 
-
 // Start the movement update loop
 updateMovement();
+
 
 //=========================================================================================================================================
 //                                                              Controller
