@@ -2,7 +2,7 @@
 
 # Demo
 ![3D Cube Demo](other/sample.gif)
-Check out the live demo [here](https://wes-brook.github.io/3D-Cube-with-Phong-Reflection-Ligthting/).
+Check out the live demo [here](https://wes-brook.github.io/3D-Cube-with-Phong-Reflection-Ligthting/)
 
 ## Description
 I made a web page for a controllable 3D Cube using WebGL 2.0 and the Phong Reflection Lighting Model. This project showcases basic 3D graphics concepts, including vertex and fragment shaders, camera controls, and lighting techniques. I think it’s pretty cool.
