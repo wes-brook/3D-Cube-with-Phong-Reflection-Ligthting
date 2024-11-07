@@ -12,7 +12,7 @@ I made a web page for a controllable 3D Cube using WebGL 2.0 and the Phong Refle
 - **Phong Reflection Model**: Implements ambient, diffuse, and specular lighting to create realistic shading on the cube's surface.
 - **Responsive Design**: The canvas adjusts to different screen sizes for a better viewing experience.
 
-## Technologies Used
+## Tech Stack
 - **WebGL 2.0**: For rendering 3D graphics.
 - **JavaScript**: For application logic and interactions.
 - **HTML/CSS**: For the basic structure and styling of the web page.
